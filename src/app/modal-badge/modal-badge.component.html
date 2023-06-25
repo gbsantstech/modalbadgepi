@@ -1,0 +1,8 @@
+<div class="modal" *ngIf="showModal">
+    <h4>Detalhes do Badge</h4>
+    <p>Descrição: {{ badgeData?.descricao }}</p>
+    <p>Nível: {{ badgeData?.badgeNivel?.descricao }}</p>
+    <button (click)="closeModal()">Fechar</button>
+  </div>
+  
+  
